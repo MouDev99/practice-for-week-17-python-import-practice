@@ -1,3 +1,10 @@
+from home.chores import takeOutTrash, sweepFloors, doDishes
+from home.cook import washVegetables, chopMeat
+from home.leisure import playGames, petDog, readBook, takeNap
+
+from office.work import code, attendMeeting, updateSchedule
+from office.idle import chat, getWater, useSocialMedia
+
 def morningMenu():
   print("Starting the day off...")
   while True:
@@ -18,8 +25,8 @@ def morningMenu():
       quit()
     else:
       print("Please enter a valid input")
-    
-  
+
+
 
 
 def workMenu():
@@ -46,7 +53,7 @@ def workMenu():
       quit()
     else:
       print("Please enter a valid input")
-  
+
 
 
 def slackOffMenu():
@@ -69,7 +76,7 @@ def slackOffMenu():
       quit()
     else:
       print("Please enter a valid input")
-  
+
 
 
 def eveningMenu():
@@ -91,7 +98,7 @@ def eveningMenu():
       quit()
     else:
       print("Please enter a valid input")
-  
+
 def choresMenu():
   while True:
     print(
